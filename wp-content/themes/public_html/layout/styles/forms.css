@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*
+Template Name: Educational
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File:Forms CSS
+*/
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/* ----------------------------------------------Forms in Content Area------------------------------------- */
+
+#container #respond{display:block; width:100%;}
+#container #respond input{width:250px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+#container #respond textarea{width:98%; border:2px solid #CCCCCC; padding:2px; overflow:auto;}
+#container #respond p{margin:5px 0;}
+#container #respond #submit, #container #respond #reset{margin:0; padding:5px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC; cursor:pointer;}
+
+/* ----------------------------------------------Newsletter------------------------------------- */
+
+#footer form{display:block; width:200px; margin:0; padding:10px 0; border:none;}
+#footer input{display:block; float:left; width:65px; margin:0 5px 0 0; padding:5px; color:#666666; background-color:#FFFFFF; border:1px solid #DBDBDB; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+#footer input#news_go{width:auto; height:auto; margin:0; padding:4px;}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+.wrapper1 {
+    margin:;
+    max-width:580px;
+	margin-right:40px;
+}
+ 
+#contact_form {
+    text-shadow:0 1px 0 #FFF;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    background:;
+    padding:25px;
+ 
+}
+ 
+#ff label {
+    cursor:pointer;
+    margin:4px 0;
+    color:#ed7700;
+    display:block;
+    font-weight:800;
+ 
+}
+ 
+input {
+    display:block;
+    width:90%;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    background-color:#f4f4f4;
+    color:#000;
+    border:1px solid #5f5f5f;
+    padding:10px;
+    margin-bottom:25px;
+}
+ 
+.sendButton {
+    cursor:pointer;
+    -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+    background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+    background-color:#ffc477;
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    border:1px solid #eeb44f;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    width:25%;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #cc9f52;
+}
+.sendButton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+    background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+    background-color:#fb9e25;
+}
